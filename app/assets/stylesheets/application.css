@@ -13,3 +13,6 @@
  *= require_tree .
  *= require_self
  */
+/*sprocket通过这两行注释引入相应的文件*/
+/*require_tree引入本目录下的所有css文件, */
+/*require_self会把application.css这个文件也引入进来*/
