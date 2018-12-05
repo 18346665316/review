@@ -1,1 +1,6 @@
 #empty
+michael:
+  name: Michael Example
+  email: michael@example.com
+#  固件可以使用嵌入式的ruby
+  password_digest: <%= User.digest('password') %>
